@@ -17,30 +17,54 @@ st.markdown("""
 
 /* Main background */
 .stApp {
-    background-color: #3a3a3a;
+    background-color: #F4EBDD;
+    color: #3B2920;
 }
 
 /* Main title */
 h1 {
     text-align: center;
-    color: #d4af37;
+    color: #8B6B3F;
+}
+
+/* Subtitle / general text */
+.stApp p,
+.stApp span,
+.stApp label {
+    color: #3B2920;
 }
 
 /* Chat messages */
 .stChatMessage {
     border-radius: 12px;
     padding: 10px;
+    background-color: #EFE1CF;
 }
 
 /* Sidebar */
-
 [data-testid="stSidebar"] {
-    background-color: #2a2a2a;
-} 
+    background-color: #5A4032;
+}
+
+[data-testid="stSidebar"] * {
+    color: #F8EEDC;
+}
 
 /* Buttons */
 .stButton > button {
     border-radius: 10px;
+    background-color: #8B6B3F;
+    color: #FFF8EA;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #6F503A;
+}
+
+/* Chat input */
+[data-testid="stChatInput"] {
+    background-color: #E8D8C3;
 }
 
 </style>
