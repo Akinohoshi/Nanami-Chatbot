@@ -283,9 +283,6 @@ if message:
     best_intent = model.classes_[best_index]
     confidence = probabilities[best_index]
 
-    st.write(best_intent)
-    st.write(confidence)
-
     # -------------------------
     # Nanami responds
     # -------------------------
